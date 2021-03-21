@@ -1,23 +1,23 @@
 /*Restyling for dark theme*/
 /*
-Background: 212121
-Content: 323232
-Content-Primary: 0AAE59 = RGB(10, 174, 89)
-Hover-state-primary: (34, 194, 109) = #1ec26d
+Background: 121212 earlier 323232
+Content: 1D1D1D
+Content-Primary: BB86FC = RGB(10, 174, 89) --> RGB(187, 154, 252)
+Hover-state-primary: (34, 194, 109) = #1ec26d --> RGB(207, 174, 272) = #cfaeff
 Content-Secondary: 14ffec
 text: ffffff
 */
 body {
-  background-color: #212121;
+  background-color: #121212;
   color: white;
 }
 
 .bg-dark {
-  background-color: #323232;
+  background-color: #1D1D1D;
 }
 
 .bg-primary {
-  background-color: #0AAE59;
+  background-color: #BB86FC;
 }
 
 .bg-secondary {
@@ -31,12 +31,12 @@ hr {
 }
 
 footer {
-  background-color: #323232;
+  background-color: #1D1D1D;
 }
 
 /* Resytling jumbotron */
 .jumbotron {
-  background-color: #323232;
+  background-color: #1D1D1D;
 }
 
 /*Restyle table*/
@@ -53,7 +53,7 @@ footer {
 
 /*Overriding body/bootstrap*/
 .border-dark .card-header {
-  color: #323232;
+  color: #1D1D1D;
 }
 
 .card {
