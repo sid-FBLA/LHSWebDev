@@ -4,12 +4,14 @@ Background: 121212 earlier 323232
 Content: 1D1D1D
 Content-Primary: BB86FC = RGB(10, 174, 89) --> RGB(187, 154, 252)
 Hover-state-primary: (34, 194, 109) = #1ec26d --> RGB(207, 174, 272) = #cfaeff
-Content-Secondary: 14ffec
 text: ffffff
+nav: #B4299a = (180, 41, 154)
+nav-hover: #C83DAE = (200, 61, 174)
 */
 body {
   background-color: #121212;
-  color: white;
+  color: #ffffff;
+  position: relative;
 }
 
 .bg-dark {
@@ -22,6 +24,16 @@ body {
 
 .bg-secondary {
   background-color: #14ffec;
+}
+
+.row {
+  justify-content: space-around;
+}
+
+.bar-v {
+  width: 10px;
+  height: 50px;
+  background-color: #BB86FC;
 }
 
 /*Restyling Elements*/
@@ -58,4 +70,82 @@ footer {
 
 .card {
   padding: 0;
+}
+
+/*Fontawesome icons*/
+.pink-icon {
+  color: #BB86FC;
+  font-size: 5rem;
+}
+
+/*Navbar*/
+.navbar {
+  position: absolute;
+  background-color: transparent !important;
+  color: #b4299a;
+  z-index: 1;
+}
+
+/*Jumbotron*/
+.jumbotron {
+  padding: 0 0 0 0;
+  background-color: #111113;
+  margin: 0;
+  align-items: center;
+}
+
+.jumbotron .content {
+  text-align: center;
+}
+
+.jumbotron .content hr {
+
+  border-top-color: rgba(255, 255, 255, 0.7)
+}
+
+.jumbotron img {
+  position: relative;
+  width: 100%;
+  height: calc(100vh);
+  object-fit: none;
+  object-position: 21% ;
+  z-index: 0;
+}
+
+.jumbotron .content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: absolute;
+  z-index: 1;
+}
+
+/*statistic cards*/
+.stat-card {
+  color: #939393;
+  padding: 1rem;
+}
+
+.stat-card p {
+  margin-right: 0.5rem;
+  text-align: left;
+}
+
+.stat-card i {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+}
+
+.stat-card h2 {
+  color: white;
+  text-align: left;
+}
+
+@media screen and (min-width: 992px) {
+
+
+}
+
+@media screen and (min-width: 1440px) {
+
 }
